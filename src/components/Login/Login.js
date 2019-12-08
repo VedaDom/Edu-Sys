@@ -33,7 +33,6 @@ export class Login extends Component {
                 email: userData.get('email'),
                 type: userData.get('type')
             }
-
             this.props.dispatch({
                 type: SET_CURRENT_USER,
                 payload: user

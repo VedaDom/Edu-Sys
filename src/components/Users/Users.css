@@ -145,8 +145,7 @@
 }
 
 .completed{
-    background-color: #00BA82;
-    cursor: pointer;
+    
 }
 
 .label-l{
@@ -180,10 +179,10 @@
 .model-r{
     background-color: yellow;
     width: 500px;
-    height: 700px;
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 186, 130, 0.25);
     border-radius: 8px;
+    padding-bottom: 32px;
 }
 
 .h-title{
@@ -204,7 +203,61 @@
 .s-name{
     font-family: Roboto;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 12px;
     color: white;
     text-align: center;
+}
+
+.m-table{
+    padding: 16px;
+}
+.m-table-row{
+    padding: 6px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+}
+
+.border-line{
+    border: 1px solid black;
+}
+
+.n-1{
+    margin-top: 16px;
+}
+
+.m-table-rows .m-table-row{
+    margin-top: -1px;
+}
+
+.m-table-row-col{
+    
+}
+
+.info-row{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    grid-gap: 16px;
+}
+
+.info-label{
+    color: #6D6D6D;
+}
+
+.info-value{
+    color: #6D6D6D;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.student-info{
+    padding: 0px 32px;
+}
+
+.w{
+    font-weight: 700;
+}
+
+.g-color{
+    color: #6D6D6D !important;
 }

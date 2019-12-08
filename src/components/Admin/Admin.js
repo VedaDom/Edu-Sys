@@ -104,7 +104,7 @@ export class Admin extends Component {
                                 <div className="trows-s">
                                     {
                                         this.state.schools.map((school, index) => {
-                                            if (this.state.search.length > 0 && school.names.includes(this.state.search)) {
+                                            if (this.state.search.length > 0 && school.names.toLowerCase().includes(this.state.search.toLowerCase())) {
                                                 return (
                                                     <div onClick={() => {this.setState({isViewSchool: true, isAddModelOpen: true, selectedIdex: index})}} key={index} className="trow">
                                                         <div className="trow-item border-r">{school.names}</div>
@@ -135,7 +135,7 @@ export class Admin extends Component {
                         schoolEmail: '',
                         schoolLocation: '',
                         schoolPassword: '',
-                    })}} className="add-user"></div>
+                    })}} className="add-user">+</div>
                 </div>
                 <div style={{display: this.state.isAddModelOpen ? 'grid' : 'none'}} className="model-add-user">
                     <div className="model">

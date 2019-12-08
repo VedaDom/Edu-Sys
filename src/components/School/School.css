@@ -56,7 +56,7 @@
     background: rgba(0, 186, 130, 0.25);
 }
 
-.app-bar{
+.app-bar-s{
     height: 121px;
     display: grid;
     align-items: center;
@@ -64,7 +64,7 @@
     grid-template-columns: auto 48px;
 }
 
-.search{
+.search-s{
     height: 48px;
     width: 835px;
     border-top: 1px solid #C4C4C4;
@@ -76,7 +76,7 @@
     align-items: center;
 }
 
-.search input{
+.search-s input{
     padding-left: 29px;
 }
 
@@ -84,7 +84,7 @@
     color: #00BA82;
 }
 
-.search-options{
+.search-options-s{
     width: 360px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -113,7 +113,7 @@
 
 }
 
-.avatar{
+.avatar-s{
     width: 48px;
     height: 48px;
     background: #C4C4C4;
@@ -121,7 +121,7 @@
     cursor: pointer;
 }
 
-.input-field-input{
+.input-field-input-s{
     height: 40px;
     width: 100%;
     border: none;
@@ -147,9 +147,9 @@
     width: 1007px;
 }
 
-.trow-h{
+.trow-h-s{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr;
     grid-gap: 1px;
     border: 1px solid #C4C4C4;
     border-collapse: collapse;
@@ -157,9 +157,9 @@
     color: #00BA82;
 }
 
-.trow{
+.trow-s{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr;
     grid-gap: 1px;
     border: 1px solid #C4C4C4;
     border-collapse: collapse;
@@ -179,10 +179,10 @@
     background: rgba(0, 186, 130, 0.25);
 }
 
-.trows{
+.trows-s{
     height: 26%;
     overflow: scroll;
-    border-bottom: 1px solid #C4C4C4;
+    /* border-bottom: 1px solid #C4C4C4; */
 }
 
 .add-user{
@@ -239,6 +239,31 @@
 }
 
 .model-add-user .model .middle{
+    
+}
+
+.middle-s{
+    overflow-x: scroll;
+}
+
+.add-user{
+    font-size: 28px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+.student-info-s{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 32px;
+}
+
+.parent-info-s{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -250,7 +275,14 @@
     grid-column: 1 / 3;
 }
 
-.bottom{
+.bottom-s{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    justify-content: end;
+    grid-column-gap: 32px;
+}
+
+.bottom-ss{
     display: grid;
     grid-template-columns: 150px 150px;
     justify-content: end;
