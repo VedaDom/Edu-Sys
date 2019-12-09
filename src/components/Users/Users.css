@@ -1,0 +1,263 @@
+.container{
+    height: 100%;
+    width: 100%;
+}
+.users{
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 280px auto;
+    overflow: hidden;
+}
+
+.users--side-bar{
+    width: 280px;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 16px rgba(0, 186, 130, 0.25);
+}
+
+.users--side-bar--header{
+    padding: 32.5px;
+}
+
+.users--side-bar--header img{
+    width: 114.99px;
+    height: 34.68px;
+}
+
+.users-logo{
+    width: 156px;
+    height: 156px;
+    border-radius: 50%;
+    background: rgba(196, 196, 196, 0.14);
+    margin-bottom: 16px;
+}
+
+.nav-item{
+    height: 50px;
+    padding: 0px 32.5px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 23px auto;
+    align-items: center;
+}
+
+.nav-item-icon{
+    width: 23px;
+    height: 23px;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.nav-item-text{
+    padding-left: 16px;
+}
+
+.active{
+    background: rgba(0, 186, 130, 0.25);
+}
+
+.label-u{
+    width: 200px;
+    height: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6D6D6D;
+    padding-bottom: 8px;
+    text-align: start;
+}
+
+
+
+
+
+
+.users-reports{
+    height: 100%;
+    padding: 32px 64px;
+}
+.user-report{
+    width: 300px;
+    height: 140px;
+    padding: 16px 20px;
+    box-shadow: 0px 0px 16px rgba(0, 186, 130, 0.25);
+}
+.l-top{
+    display: grid;
+    grid-template-columns: auto 80px;
+}
+.l-top-lt{
+
+}
+.level{
+    
+}
+.level{
+    
+}
+.l-top-rt{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.average{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 19px;
+    color: #6D6D6D;
+}
+.l-top{
+    
+}
+.l-bottom{
+    height: 40px;
+    display: grid;
+    align-items: center;
+}
+.l-progress{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 30px 135px 135px;
+    align-items: center;
+}
+.line-circle {
+    width: 135px;
+    height: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.line {
+    width: 105px;
+    height: 0px;
+    border: .5px solid #00BA82;
+}
+.circle {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #00BA82;
+    border-radius: 50%;
+}
+
+.completed{
+    
+}
+
+.label-l{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 19px;
+    color: #6D6D6D;
+}
+
+.label-t{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6D6D6D;
+}
+                                        
+.model-report{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(196, 196, 196, 0.25);
+    top: 0;
+    left: 0;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.model-r{
+    background-color: yellow;
+    width: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 186, 130, 0.25);
+    border-radius: 8px;
+    padding-bottom: 32px;
+}
+
+.h-title{
+    background-color: #00BA82;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 12px 0px;
+}
+
+.title{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+.s-name{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.m-table{
+    padding: 16px;
+}
+.m-table-row{
+    padding: 6px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+}
+
+.border-line{
+    border: 1px solid black;
+}
+
+.n-1{
+    margin-top: 16px;
+}
+
+.m-table-rows .m-table-row{
+    margin-top: -1px;
+}
+
+.m-table-row-col{
+    
+}
+
+.info-row{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    grid-gap: 16px;
+}
+
+.info-label{
+    color: #6D6D6D;
+}
+
+.info-value{
+    color: #6D6D6D;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.student-info{
+    padding: 0px 32px;
+}
+
+.w{
+    font-weight: 700;
+}
+
+.g-color{
+    color: #6D6D6D !important;
+}

@@ -1,0 +1,26 @@
+.input-field{
+
+}
+
+.input-field--label{
+    height: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6D6D6D;
+    padding-bottom: 8px;
+}
+
+.input-field--input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid #00BA82;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #6D6D6D;
+    outline: none;
+    padding-left: 8px;
+    padding-right: 8px;
+}
